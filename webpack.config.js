@@ -26,7 +26,6 @@ module.exports = {
   },
   module: {
     rules: [
-      // TODO возможно exclude не нужен (стоит externals)
       { test: /\.tsx?$/, exclude: /node_modules/, loader: 'ts-loader' },
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
     ]
