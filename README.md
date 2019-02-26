@@ -1,5 +1,7 @@
 ### Features
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/iliyaZelenko/typescript-node-simple-boilerplate.svg)](https://greenkeeper.io/)
+
 - full support for imports with `~` prefix for `src` folder (`@` causes a warning in the TypeScript).
 - ECMAScript 2015, 2016, 2017, 2018 + Node.js support.
 - TSLint (TypeScript static analysis tool that checks code).
