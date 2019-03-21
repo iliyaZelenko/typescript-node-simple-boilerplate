@@ -15,6 +15,7 @@ module.exports = {
   ],
   rules: {
     /* TypeScript */
+    'typescript/member-ordering': 'off',
     'typescript/member-delimiter-style': ['error', {
       requireLast: false,
       delimiter: 'none'
