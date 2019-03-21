@@ -22,14 +22,16 @@ module.exports = {
     }],
     'typescript/no-use-before-define': ['error', { functions: false, classes: false }],
     'typescript/no-var-requires': 'off',
+    'no-parameter-properties': 'off',
+    'typescript/no-non-null-assertion': 'off',
+
     /* Other */
-    "space-before-function-paren": ['error', 'always'],
+    'no-var': 'error',
+    'prefer-arrow-callback': 'error',
+    'space-before-function-paren': ['error', 'always'],
     'no-multiple-empty-lines': ['error', { max: 2 }],
-    'valid-jsdoc':  ["error", {
-      requireParamDescription: false,
-      requireReturnDescription: false,
-      requireReturnType: true
-    }],
+    'require-jsdoc': 'off',
+    'valid-jsdoc': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   },
@@ -40,7 +42,7 @@ module.exports = {
     ecmaFeature: {
       jsx: false
     },
-    // 9 это 2018
+    // 9 is 2018
     ecmaVersion: 9
   }
 }
